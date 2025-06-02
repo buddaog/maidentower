@@ -9,7 +9,7 @@ import ToursPage from './pages/ToursPage';
 import TourDetailPage from './pages/TourDetailPage';
 import BookingPage from './pages/BookingPage';
 
-// Import i18n
+// Import i18n config (for translations)
 import './i18n';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
                 <Route path="/tours" element={<ToursPage />} />
                 <Route path="/tours/:id" element={<TourDetailPage />} />
                 <Route path="/booking/:id" element={<BookingPage />} />
-                {/* Fallback route */}
+                {/* Если страница не найдена — возвращаем на главную */}
                 <Route path="*" element={<HomePage />} />
               </Routes>
             </main>
