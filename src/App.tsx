@@ -1,3 +1,5 @@
+// src/App.tsx
+
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
@@ -9,7 +11,7 @@ import ToursPage from './pages/ToursPage';
 import TourDetailPage from './pages/TourDetailPage';
 import BookingPage from './pages/BookingPage';
 
-// Import i18n config (for translations)
+// Импорт i18n конфигурации
 import './i18n';
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
                 <Route path="/tours" element={<ToursPage />} />
                 <Route path="/tours/:id" element={<TourDetailPage />} />
                 <Route path="/booking/:id" element={<BookingPage />} />
-                {/* Если страница не найдена — возвращаем на главную */}
+                {/* Запасной маршрут */}
                 <Route path="*" element={<HomePage />} />
               </Routes>
             </main>
