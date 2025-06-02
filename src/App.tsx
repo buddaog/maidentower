@@ -12,7 +12,7 @@ import TourDetailPage from './pages/TourDetailPage';
 import BookingPage from './pages/BookingPage';
 
 // Импорт i18n конфигурации
-import './i18n';
+import './i18n/index';
 
 function App() {
   return (
