@@ -1,8 +1,8 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 
-const BookingPage = () => {
-  const { id } = useParams();
+const BookingPage: React.FC = () => {
+  const { id } = useParams<{ id: string }>();
 
   return (
     <div className="p-4">
