@@ -1,0 +1,15 @@
+{
+  "home": {
+    "title": "Maiden Tower-a xoş gəlmisiniz",
+    "description": "Azərbaycanın ən yaxşı turlarını kəşf edin"
+  },
+  "booking": {
+    "name": "Ad",
+    "surname": "Soyad",
+    "phone": "WhatsApp nömrəsi",
+    "direction": "İstiqamət",
+    "date": "Tarix",
+    "submit": "Rezerv et",
+    "unavailable": "Bu tarixdə yerlər doludur, zəhmət olmasa başqa tarix seçin"
+  }
+}
